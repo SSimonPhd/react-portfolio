@@ -83,7 +83,7 @@ const Contact = () => {
                 name="username"
                 onChange={handleInputChange}
                 type="text"
-                placeholder="Please enter your name"
+                placeholder=""
                 /><br></br>
             <label>Email:</label>
             <input className='input-field'
@@ -91,7 +91,7 @@ const Contact = () => {
                 name="email"
                 onChange={handleInputChange}
                 type="email"
-                placeholder="Please enter your email"
+                placeholder=""
             /><br></br>
             <label>Subject:</label>
             <input className='input-field'
@@ -99,7 +99,7 @@ const Contact = () => {
                 name="subject"
                 onChange={handleInputChange}
                 type="text"
-                placeholder="Re: "
+                placeholder=""
             /><br></br>
              <label>Message:</label>
             <input className='message-field'
@@ -107,7 +107,7 @@ const Contact = () => {
                 name="message"
                 onChange={handleInputChange}
                 type="text"
-                placeholder="Please write a message here"
+                placeholder=""
             /><br></br>
             <button className='button' type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
