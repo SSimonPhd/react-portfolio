@@ -8,17 +8,17 @@ export default function Navigation({ currentPage, handlePageChange }) {
         <>
             <Navbar>
                 <Navbar.Brand className="brand">
-                    <Nav.Link href="#about" onClick={() => handlePageChange("About")}>
+                    {/* <Nav.Link href="#about" onClick={() => handlePageChange("About")}> */}
                         <span className="brand-name">
                         Scott Simon</span>
-                    </Nav.Link>
+                    {/* </Nav.Link> */}
                 </Navbar.Brand>
 
                 <Nav className="link-list link-list-item">
                     <Nav.Link href="#about"
                         onClick={() => handlePageChange("About")}
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-
+													Home
                     </Nav.Link>
                     <Nav.Link href="#portfolio"
                         onClick={() => handlePageChange("Portfolio")}

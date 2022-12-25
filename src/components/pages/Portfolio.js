@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <p className='portfolio-header'>Portfolio</p>
-      <p className="header-text"></p>
+      <p className="header-text">Hover over headers to see GitHub repositories</p>
       <Project projects={projects}/>
     </div>
   )

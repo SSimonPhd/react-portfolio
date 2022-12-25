@@ -5,7 +5,6 @@ import image from '../../images/profile.jpg'
 const About = () => {
   return (
     <div className='about-container'>
-       <p className="about-header">About</p><br></br>
       <img className="profile-pic"src={image} alt="Profile"></img>
       <p className='profile-text'> <br></br>
         Hi! I'm Scott. <br></br> <br></br>
