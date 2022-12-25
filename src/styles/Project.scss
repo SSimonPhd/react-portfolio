@@ -1,0 +1,113 @@
+.portfolio-header {
+    padding: 0px;
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+		color:#ffc75f;
+}
+
+.header-text{
+    font-style:italic;
+    font-size: 1rem;
+    margin-left: 20px;
+		color:#ffffff;
+}
+
+.project-container {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+
+    .project-card {
+        padding: 5px 0 0 0;
+        margin: 10px;
+        // width: 50%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+
+        .project-header {
+            text-decoration: none;
+            height: 85px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            width: 95%;
+            padding: 7px;
+            box-shadow: #355c7d 0px 0px 1px 1px;
+            background-color: #fcf2ec;
+
+            .project-text {
+                text-align: center;
+                margin: auto;
+                font-size: 1.3rem;
+                text-decoration: none;
+                color: #355c7d
+            }
+
+            .project-text:hover {
+                text-decoration: underline;
+            }
+
+            .hide {
+                display: none;
+                color: #355c7d;
+                font-size: 2.3rem;
+                margin: auto;
+            }
+
+            .project-text:hover+.hide {
+                display: block;
+                opacity: 0%;
+                transition: opacity .5s;
+            }
+
+            .hide:hover {
+                display: block;
+                opacity: 100%;
+                transition: opacity 1s;
+            }
+        }
+
+        .image {
+            border-radius: 0 0 10px 10px;
+            box-shadow: grey 0px 1px 1px 1px;
+            margin: 0px;
+            width: 95%;
+            height: 80%;
+            padding: 5px;
+
+        }
+    }
+
+    .image:hover {
+        box-shadow: rgb(66, 60, 60) 1px 2px 2px 2px;
+    }
+    .project-header:hover {
+        box-shadow: 1px 0px 2px 2px;
+    }
+    .image:active {
+        box-shadow: rgb(50, 45, 45) 2px 2px 2px 2px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .project-card {
+        max-width: 40%;
+        margin: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-card {
+        padding: 20px;
+        max-width: 80%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    }

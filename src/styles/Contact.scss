@@ -1,0 +1,225 @@
+:root {
+	--border-radius: 10px;
+	--box-shadow: 4px 4px #1db475;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     width: 100%
+// }
+
+.contact-head {
+    margin-top: 10px;
+    margin-left: 50px;
+		padding: 20px;
+}
+
+.contact-header {
+    padding: 0px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-left: 0px;
+    font-weight: bold;
+		color:#ffc75f;
+}
+
+
+h4 {
+    padding: 2px;
+    font-family: monospace;
+    font-size: x-large;
+		color:#ffffff;
+}
+
+a {
+	color: #1db475;;
+}
+
+.form {
+    font-family: monospace;
+    font-size: x-large;
+		margin-left: 50px;
+    padding: 20px;
+    display: grid;
+		color:#ffffff;
+    ::placeholder {
+        font-family: monospace;
+        font-size: large;
+        padding: 5px;
+    }
+
+    .input-field {
+        font-size: large;
+        width: 60%;
+        height: 40px;
+				border-radius: var(--border-radius);
+    }
+
+    .message-field {
+        height: 150px;
+        width: 60%;
+        font-size: large;
+        font-family: monospace;
+				border-radius: var(--border-radius);
+    }
+
+
+    .button {
+        width: 30%;
+        font-family: monospace;
+        font-size: x-large;
+        margin-top: 20px;
+        background-color:  #091520;
+        color: #ffc75f;
+        height: 50px;
+        margin-bottom: 50px;
+				border-radius: 10px;
+				border-radius: var(--border-radius);
+				box-shadow: var(--box-shadow);
+
+    }
+
+    .button:hover {
+        background-color: #0f1d2b;
+        cursor: pointer;
+    }
+
+    .button:active {
+        background-color: #355c7d;
+        ;
+        color: #fcf2ec;
+        cursor: pointer;
+    }
+}
+
+.error-text {
+
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+// @media only screen and (max-width: 600px) {
+//     .form {
+//         font-family: monospace;
+//         font-size: large;
+//         padding: 20px;
+
+//         ::placeholder {
+//             font-family: monospace;
+//             font-size: large;
+//             padding: 5px;
+//         }
+
+//         .input-field {
+//             width: 100%;
+//             height: 40px;
+//             margin-left: 0px;
+
+//         }
+
+//         .message-field {
+//             height: 100px;
+//             width: 100%;
+//             font-size: large;
+//             font-family: monospace;
+//             margin-left: 0px;
+
+//         }
+
+//         .button {
+//             margin: auto;
+//             text-align: center;
+//             width: 50%;
+//             font-family: monospace;
+//             font-size: x-large;
+//             margin-top: 20px;
+//             background-color: #355c7d;
+//             color: #fcf2ec;
+//             height: 50px;
+//             margin-bottom: 20px;
+//         }
+
+//         .button:active {
+//             background-color: #fcf2ec;
+//             color: #355c7d;
+//             ;
+//             cursor: pointer;
+//         }
+//     }
+// }
+
+// @media only screen and (min-width: 600px) {
+//     .navbar {
+//         display: flex;
+//         padding: 10px;
+//         // flex-direction: column;
+//         width: 100%;
+//         height: 15vh;
+//         font-family: monospace;
+//         background-color: #fcf2ec;
+//         color: #355c7d;
+//         justify-content: space-around;
+//     }
+
+//     .link-list {
+//         display: flex;
+//         justify-content: flex-end;
+//         list-style: none;
+//         padding: 20px;
+//         width: 70%
+//     }
+// }
+
+// @media only screen and (max-width: 762px) {
+
+//     .brand {
+//         padding: 20px;
+//         font-size: 1.5rem;
+//         text-align: center;
+//     }
+// }
+
+
+// @media only screen and (max-width: 600px) {
+//     .navbar {
+//         display: flex;
+//         flex-direction: column;
+//         width: 100%;
+//         height: 15vh;
+//         font-family: monospace;
+//         background-color: #fcf2ec;
+//         color: #355c7d;
+//         align-items: center;
+//     }
+
+//     .link-list {
+//         display: flex;
+//         justify-content: flex-end;
+//         list-style: none;
+//         margin-right: 10px;
+//         width: 80%
+//     }
+
+//     .link-list-item {
+//         font-size: 1rem;
+//         margin-right: 10px;
+//     }
+
+//     .brand {
+//         padding: 10px;
+//         font-size: 1.5rem;
+//         text-align: center;
+//     }
+// }
