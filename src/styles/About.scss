@@ -1,3 +1,8 @@
+:root {
+	--border-radius: 10px;
+	--box-shadow: 4px 4px #1db475;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -33,6 +38,8 @@ body {
 		border-radius: 10%;
 		height: 300px;
 		margin-top: 75px;
+		border-radius: var(--border-radius);
+		box-shadow: var(--box-shadow);
 }
 
 .profile-text {
