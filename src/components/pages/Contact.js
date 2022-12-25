@@ -72,7 +72,7 @@ const Contact = () => {
   return (
     <div>
         <div className='contact-head'>
-            <p className="contact-header">Contact</p><br></br>
+            <p className="contact-header">Contact</p>
         <h4>Email me @<a href="mailto: simon_phd@proton.me">simon_phd@proton.me</a></h4>
         <h4 className='or'> or</h4>
         <h4>Contact me with any questions:</h4></div>
