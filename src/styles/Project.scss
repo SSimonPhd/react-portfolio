@@ -1,17 +1,21 @@
 .portfolio-header {
-    padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	padding-left: 150px;
     font-family: monospace;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 1.5rem;
-    margin-left: 20px;
     font-weight: bold;
 		color:#ffc75f;
 }
 
 .header-text{
     font-style:italic;
-    font-size: 1rem;
-    margin-left: 20px;
+		margin-left: 150px;
+		margin-bottom: 25px;
+		line-height: 25px;
+		font-size: 1.5rem;
+		text-align: left;
 		color:#ffffff;
 }
 
@@ -21,6 +25,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
+		margin-bottom: 480px;
     width: 100%;
 
     .project-card {
