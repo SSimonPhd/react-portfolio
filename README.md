@@ -11,7 +11,7 @@ Build a React application with about me, portfolio, contact, and resume sections
 
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/60651145/209495346-1dab7eca-a043-440d-8a13-e3dc77630c56.png)
+![image](https://user-images.githubusercontent.com/60651145/209495528-d42fc909-843b-4a56-b337-952aa09e0bfc.png)
 
 - URL to deployed application
 
