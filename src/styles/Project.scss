@@ -3,6 +3,12 @@
 	--box-shadow: 4px 4px #1db475;
 }
 
+html {
+  position:relative;
+  min-height:100%;
+  padding-bottom: 70px; /* should be equivalent to footer height */
+}
+
 a {
 	text-decoration: none;
 }
@@ -88,4 +94,20 @@ a {
     .image:active {
         box-shadow: rgb(50, 45, 45) 2px 2px 2px 2px;
     }
-}
+	}
+
+		@media only screen and (min-width: 600px) {
+			.project-card {
+					max-width: 40%;
+					margin: 10px;
+			}
+	}
+	
+	@media only screen and (max-width: 600px) {
+			.project-card {
+					padding: 20px;
+					max-width: 80%;
+					margin-left: 10px;
+					margin-bottom: 10px;
+			}
+	}
