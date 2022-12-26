@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e6969e6a.css",
-    "main.js": "/react-portfolio/static/js/main.f0a8f19d.js",
+    "main.css": "/react-portfolio/static/css/main.e5b73384.css",
+    "main.js": "/react-portfolio/static/js/main.8dbef59e.js",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.b2441280a441bfc96c56.jpg",
     "static/media/iservice.png": "/react-portfolio/static/media/iservice.17e16c5387e8b812681b.png",
     "static/media/day-planner.png": "/react-portfolio/static/media/day-planner.a426536ad63f764392d9.png",
+    "static/media/weather-api.png": "/react-portfolio/static/media/weather-api.6b31e3ae5d5589e357b5.png",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.7423e869c909fcb4cdce.png",
-    "static/media/password-gen.png": "/react-portfolio/static/media/password-gen.450a2470779db78452fc.png",
-    "static/media/weather-api.png": "/react-portfolio/static/media/weather-api.33c90807b61dea5c2b5e.png",
+    "static/media/password-gen.png": "/react-portfolio/static/media/password-gen.eb38f7e9daa3d3f26834.png",
     "static/media/text-ed.png": "/react-portfolio/static/media/text-ed.0821b68baa88ad6e07d4.png",
     "index.html": "/react-portfolio/index.html",
-    "main.e6969e6a.css.map": "/react-portfolio/static/css/main.e6969e6a.css.map",
-    "main.f0a8f19d.js.map": "/react-portfolio/static/js/main.f0a8f19d.js.map"
+    "main.e5b73384.css.map": "/react-portfolio/static/css/main.e5b73384.css.map",
+    "main.8dbef59e.js.map": "/react-portfolio/static/js/main.8dbef59e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6969e6a.css",
-    "static/js/main.f0a8f19d.js"
+    "static/css/main.e5b73384.css",
+    "static/js/main.8dbef59e.js"
   ]
 }
