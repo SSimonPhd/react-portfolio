@@ -43,7 +43,6 @@ a {
         margin: 10px;
 
         .project-header {
-            text-decoration: none;
             height: 100px;
 						width: 95%;
             text-align: center;
@@ -53,7 +52,6 @@ a {
 						box-shadow: grey 0px 0px 1px 1px;
 
             .project-text {
-              text-decoration: none;  
 							text-align: center;
                 margin: 5px;
                 font-size: 1.2rem;
@@ -96,18 +94,18 @@ a {
     }
 	}
 
-		@media only screen and (min-width: 600px) {
-			.project-card {
-					max-width: 40%;
-					margin: 10px;
-			}
-	}
-	
+	@media only screen and (min-width: 600px) {
+		.project-card {
+				max-width: 40%;
+				margin: 10px;
+		}
+}
+
 	@media only screen and (max-width: 600px) {
 			.project-card {
 					padding: 20px;
 					max-width: 80%;
 					margin-left: 10px;
 					margin-bottom: 10px;
-			}
-	}
+		}
+}

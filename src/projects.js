@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         link: "https://shielded-badlands-94815.herokuapp.com/",
-        title: "Text Ed",
+        title: "Text Editor",
         github: "https://github.com/SSimonPhd/text-editor",
         image: require("./images/text-ed.png"),
     },
