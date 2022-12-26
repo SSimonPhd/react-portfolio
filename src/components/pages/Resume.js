@@ -13,7 +13,7 @@ const Resume = () => {
           <li className='resume-items'>CSS</li>
           <li className='resume-items'>JavaScript</li>
           <li className='resume-items'>Reactjs</li>
-          <li className='resume-items'>Bootstrap/Bulma/SASS</li>
+          <li className='resume-items'>Bootstrap/Bulma/Sass</li>
           <li className='resume-items'>Responsive Design</li>
           <li className='resume-items'>Jquery</li>
           </ul>
