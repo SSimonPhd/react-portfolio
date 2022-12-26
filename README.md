@@ -11,11 +11,11 @@ Build a React application with about me, portfolio, contact, and resume sections
 
 - Screenshot
 
-Coming soon!
+![image](https://user-images.githubusercontent.com/60651145/209495346-1dab7eca-a043-440d-8a13-e3dc77630c56.png)
 
 - URL to deployed application
 
-Coming soon!
+https://ssimonphd.github.io/react-portfolio/
 
 - URL to GitHub Repo
 
