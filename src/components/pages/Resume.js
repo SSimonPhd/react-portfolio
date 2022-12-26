@@ -20,14 +20,15 @@ const Resume = () => {
       <h2 className='resume-headers'> Back-end Proficiencies:</h2>
         <ul className='resume-list'>
           <li className='resume-items'>APIs</li>
-          <li className='resume-items'>MySQL, Sequelize</li>
-          <li className='resume-items'>GraphQL</li>
+					<li className='resume-items'>REST routing</li>
+					<li className='resume-items'>GraphQL</li>
+          <li className='resume-items'>MySQL/Sequelize</li>
           <li className='resume-items'>NoSQL</li>
-          <li className='resume-items'>MongoDB / Mongoose</li>
+          <li className='resume-items'>MongoDB/Mongoose</li>
           <li className='resume-items'>IndexedDB</li>
           <li className='resume-items'>Expressjs</li>
           <li className='resume-items'>Nodejs</li>
-          <li className='resume-items'>REST routing</li>
+   
         </ul>
         
     </div>
