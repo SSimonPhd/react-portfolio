@@ -15,7 +15,11 @@ const Footer = () => {
         <a className="linkedin-icon" href="https://www.linkedin.com/in/scottsimon/ " target="blank">
         <i><FaLinkedin /></i>
         </a>
+				<div class="footer-text align-right">
 
+				<p>&copy; copyright Scott J. Simon, Ph.D. Valid  <a href="http://jigsaw.w3.org/css-validator/">CSS</a> | <a href="http://validator.w3.org/">HTML</a></p>
+
+				</div>
     </footer>
   )
 }

@@ -3,12 +3,13 @@
 	--box-shadow: 4px 4px #1db475;
 }
 
+a {
+	text-decoration: none;
+}
+
 .portfolio-header {
-		padding-bottom: 10px;
-		padding-top: 25px;
-		padding-left: 150px;
+		margin: 50px 0 20px 200px;
     font-family: monospace;
-    margin-top: 25px;
     font-size: 1.5rem;
     font-weight: bold;
 		color:#ffc75f;
@@ -16,8 +17,7 @@
 
 .header-text{
     font-style:italic;
-		margin-left: 150px;
-		margin-bottom: 25px;
+		margin: 0 0 25px 250px;
 		line-height: 25px;
 		font-size: 1.2rem;
 		text-align: left;
@@ -30,7 +30,6 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-		margin-bottom: 400px;
     width: 100%;
 
     .project-card {
@@ -39,43 +38,32 @@
 
         .project-header {
             text-decoration: none;
-            height: 65px;
+            height: 100px;
 						width: 95%;
             text-align: center;
             border-radius: 10px 10px 0 0;
-            padding-top: 22px;
+            padding-top: 10px;
             background-color: #e9e1a4;
 						box-shadow: grey 0px 0px 1px 1px;
 
             .project-text {
               text-decoration: none;  
 							text-align: center;
-                margin: auto;
-                font-size: 1.3rem;
+                margin: 5px;
+                font-size: 1.2rem;
                 color: #0f1d2b;
             }
 
             .project-text:hover {
                 text-decoration: underline;
+								text-decoration-thickness: 2px;
             }
 
             .hide {
-                display: none;
+                display: inline;
                 color: #0f1d2b;
-                font-size: 2.3rem;
+                font-size: 3rem;
                 margin: auto;
-            }
-
-            .project-text:hover+.hide {
-                display: block;
-                opacity: 0%;
-                transition: opacity .5s;
-            }
-
-            .hide:hover {
-                display: block;
-                opacity: 100%;
-                transition: opacity 1s;
             }
         }
 
@@ -84,7 +72,7 @@
             box-shadow: grey 0px 1px 1px 1px;
             margin: 0px;
             width: 95%;
-            height: 80%;
+            height: 70%;
             padding: 5px;
         }
     }

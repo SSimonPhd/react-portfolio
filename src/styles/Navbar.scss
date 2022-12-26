@@ -3,6 +3,7 @@
 	width: 100%;
 	background-color:  #091520;
 }
+
 .brand {
 		padding: 20px;
 		font-size: 3rem;
@@ -10,8 +11,13 @@
 		margin-left: 100px;
 		justify-content: flex-start;
 }
+
 .brand-name {
 		color: #ffffff;
+}
+
+.brand-name2 {
+	color: #1db475;
 }
 
 .link-list {
@@ -35,7 +41,6 @@
 }
 
 .nav-link:hover {
-	background-color: inherit;
 	text-decoration: underline;
 	text-decoration-color:#ffc75f;
 }

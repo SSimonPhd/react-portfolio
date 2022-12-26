@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <p className='portfolio-header'>Portfolio</p>
-      <p className="header-text">Hover over headers to see GitHub repositories</p>
+      <p className="header-text">Click on title for app, click on GitHub icon for repository</p>
       <Project projects={projects}/>
     </div>
   )

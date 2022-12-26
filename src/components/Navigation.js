@@ -10,7 +10,9 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 <Navbar.Brand className="brand">
                     {/* <Nav.Link href="#about" onClick={() => handlePageChange("About")}> */}
                         <span className="brand-name">
-                        Scott Simon</span>
+                        Scott </span>
+												<span className="brand-name2">
+                        Simon</span>
                     {/* </Nav.Link> */}
                 </Navbar.Brand>
 
@@ -18,22 +20,22 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     <Nav.Link href="#about"
                         onClick={() => handlePageChange("About")}
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-													Home
+													about
                     </Nav.Link>
                     <Nav.Link href="#portfolio"
                         onClick={() => handlePageChange("Portfolio")}
                         className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}>
-                        Portfolio
+                        portfolio
                     </Nav.Link>
                     <Nav.Link href="#contact"
                         onClick={() => handlePageChange("Contact")}
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-                        Contact
+                        contact
                     </Nav.Link>
                     <Nav.Link href="#resume"
                         onClick={() => handlePageChange("Resume")}
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-                        Resume
+                        resume
                     </Nav.Link>
                 </Nav>
             </Navbar>

@@ -2,26 +2,33 @@
     box-sizing: border-box;
 }
 
+
+a {
+	padding: 10px;
+	max-width: 200px;
+	margin-bottom: 10px;
+}
+
+i {
+	margin-bottom: 15px;
+	font-size:3rem;
+	color: #fcf2ec;
+	margin: 20px;
+}
+
 footer {
     background-color: #091520;
-    position: relative;
+    position: absolute;
+		bottom: 0;
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: center;
 }
 
-a {
-    padding: 10px;
-    max-width: 200px;
-    margin-bottom: 10px;
-}
-
-i {
-    margin-bottom: 15px;
-    font-size:3rem;
-    color: #fcf2ec;
-    margin: 20px;
+.footer-text {
+	padding-top: 25px;
+	color: #ffffff;
 }
 
 

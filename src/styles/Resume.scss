@@ -7,30 +7,35 @@ h2 {
 }
 .resume-header{
 	font-family: monospace;
-	margin-top: 50px;
-	margin-left: 140px;
+	margin: 50px 0 0 200px;
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: #ffc75f;
 }
 
 .resume-link {
-	padding: 20px;
-	margin-left: 140px;
+	padding: 30px 0 10px 0;
+	margin-left: 220px;
+}
+
+.resume-link :hover {
+	text-decoration: underline;
+	text-decoration-color:#ffc75f;
+	text-decoration-thickness: 2px;
 }
 
 .resume-headers { 
 	margin-top: 20px;
-	margin-left: 140px;
+	margin-left: 220px;
 	margin-bottom: 10px;
 	color:#ffffff;
 }
 
 .resume-list {
-	margin-left: 140px;
+	margin-left: 250px;
 	font-size: x-large;
 	color:#ffffff;
-	margin-bottom: 50px;
+	// margin-bottom: 50px;
 	.resume-items {
 			margin-left: 20px;
 			margin-bottom: 10px;
