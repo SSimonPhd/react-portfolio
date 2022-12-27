@@ -1,6 +1,4 @@
-
 import '../../styles/Resume.scss'
-
 
 const Resume = () => {
   return (
@@ -12,25 +10,24 @@ const Resume = () => {
           <li className='resume-items'>HTML</li>
           <li className='resume-items'>CSS</li>
           <li className='resume-items'>JavaScript</li>
-          <li className='resume-items'>Reactjs</li>
-          <li className='resume-items'>Bootstrap/Sass</li>
+					<li className='resume-items'>Git</li>
+					<li className='resume-items'>VS Code</li>
+          <li className='resume-items'>React</li>
+          <li className='resume-items'>Bootstrap</li>
+					<li className='resume-items'>Jquery</li>
           <li className='resume-items'>Responsive Design</li>
-          <li className='resume-items'>Jquery</li>
           </ul>
       <h2 className='resume-headers'> Back-end Proficiencies:</h2>
         <ul className='resume-list'>
           <li className='resume-items'>APIs</li>
-					<li className='resume-items'>REST routing</li>
+					<li className='resume-items'>REST</li>
 					<li className='resume-items'>GraphQL</li>
-          <li className='resume-items'>MySQL/Sequelize</li>
-          <li className='resume-items'>NoSQL</li>
-          <li className='resume-items'>MongoDB/Mongoose</li>
-          <li className='resume-items'>IndexedDB</li>
-          <li className='resume-items'>Expressjs</li>
-          <li className='resume-items'>Nodejs</li>
-   
-        </ul>
-        
+          <li className='resume-items'>MySQL</li>
+          <li className='resume-items'>MongoDB</li>
+          <li className='resume-items'>Express</li>
+          <li className='resume-items'>Node</li>
+					<li className='resume-items'>MERN Stack</li>
+        </ul>     
     </div>
   )
 }

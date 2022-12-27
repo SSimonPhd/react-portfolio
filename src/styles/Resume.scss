@@ -4,35 +4,31 @@ h2 {
 
 .resume-container {
     font-family: monospace;
+		margin-left: 50px;
 }
 .resume-header{
 	font-family: monospace;
-	margin: 50px 0 0 200px;
+	margin: 50px 0 0 25px;
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: #ffc75f;
 }
 
 .resume-link {
-	padding: 30px 0 10px 0;
-	margin-left: 220px;
-}
-
-.resume-link :hover {
-	text-decoration: underline;
-	text-decoration-color:#ffc75f;
-	text-decoration-thickness: 2px;
+	padding: 20px 0 10px 0;
+	margin-left: 50px;
 }
 
 .resume-headers { 
 	margin-top: 20px;
-	margin-left: 220px;
+	margin-left: 50px;
 	margin-bottom: 10px;
 	color:#ffffff;
 }
 
 .resume-list {
-	margin-left: 250px;
+	margin-left: 100px;
+	margin-bottom: 20px;
 	font-size: x-large;
 	color:#ffffff;
 	.resume-items {
@@ -41,10 +37,9 @@ h2 {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1024px) {
+	.resume-container {
+		margin-left: 0px;
+	}
 
 }
-
-@media only screen and (max-width: 600px) {
-
-	}

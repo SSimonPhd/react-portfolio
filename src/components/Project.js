@@ -1,7 +1,7 @@
-// import Github icon
+// Import Github icon
 import { FaGithub } from 'react-icons/fa'
 
-// import styles
+// Import styles
 import '../styles/Project.scss'
 
 const Project = ({ projects }) => {

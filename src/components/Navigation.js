@@ -8,12 +8,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
         <>
             <Navbar>
                 <Navbar.Brand className="brand">
-                    {/* <Nav.Link href="#about" onClick={() => handlePageChange("About")}> */}
                         <span className="brand-name">
                         Scott </span>
 												<span className="brand-name2">
                         Simon</span>
-                    {/* </Nav.Link> */}
                 </Navbar.Brand>
 
                 <Nav className="link-list link-list-item">
@@ -38,6 +36,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         resume
                     </Nav.Link>
                 </Nav>
+								
             </Navbar>
         </>
     );

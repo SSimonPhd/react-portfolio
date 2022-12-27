@@ -1,12 +1,7 @@
-:root {
-	--border-radius: 10px;
-	--box-shadow: 4px 4px #1db475;
-}
-
 html {
   position:relative;
   min-height:100%;
-  padding-bottom: 70px; /* should be equivalent to footer height */
+  padding-bottom: 70px;
 }
 
 a {
@@ -14,7 +9,7 @@ a {
 }
 
 .portfolio-header {
-		margin: 50px 0 20px 200px;
+		margin: 50px 0 20px 25px;
     font-family: monospace;
     font-size: 1.5rem;
     font-weight: bold;
@@ -23,7 +18,7 @@ a {
 
 .header-text{
     font-style:italic;
-		margin: 0 0 25px 250px;
+		margin: 0 0 25px 50px;
 		line-height: 25px;
 		font-size: 1.2rem;
 		text-align: left;

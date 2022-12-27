@@ -10,8 +10,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const [subject, setSubject] = useState('');
 
-
-    // VALIDATE EMAIL ADDRESS HERE WITH HELPERIN UTILS
+    // VALIDATE EMAIL ADDRESS HERE WITH HELPER IN UTILS
     const [errormessage, setErrorMessage] = useState('');
 
     // SET VARIABLE TO HANDLE CHANGES ON INPUT FORM WITH USESTATE
@@ -29,6 +28,7 @@ const Contact = () => {
         } else if (inputType === 'message')
             setMessage(inputValue)
     };
+
     // SET VARIABLE TO HANDLE FORM SUBMISSIONS
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -120,4 +120,5 @@ const Contact = () => {
     </div>
   );
 }
+
 export default Contact

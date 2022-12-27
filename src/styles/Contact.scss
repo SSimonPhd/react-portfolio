@@ -1,16 +1,5 @@
-:root {
-	--border-radius: 10px;
-	--box-shadow: 4px 4px #1db475;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 h4 {
-	margin: 0 0 10px 28px;
-	padding: 5px;
-	line-height: 10px;
+	margin: 0 0 10px 0px;
 	font-family: monospace;
 	font-size: x-large;
 	color:#ffffff;
@@ -20,15 +9,8 @@ a {
 color: #1db475;
 }
 
-a:hover {
-	text-decoration: underline;
-	text-decoration-color:#ffc75f;
-	text-decoration-thickness: 2px;
-}
-
 .contact-head {
-    margin: 35px 0 0 175px;
-		padding: 20px;
+    margin: 50px 0 0 25px;
 }
 
 .contact-header {
@@ -42,7 +24,8 @@ a:hover {
 .form {
     font-family: monospace;
     font-size: x-large;
-		margin-left: 250px;
+		margin-top: 20px;
+		margin-left: 50px;
     display: grid;
 		color: #ffffff;
     ::placeholder {
@@ -53,7 +36,7 @@ a:hover {
 
 	.input-field {
 			font-size: large;
-			width: 60%;
+			width: 80%;
 			height: 40px;
 			padding-left: 15px;
 			color:  #091520;
@@ -63,7 +46,7 @@ a:hover {
 
 	.message-field {
 			height: 150px;
-			width: 60%;
+			width: 80%;
 			font-size: large;
 			font-family: monospace;
 			padding-left: 15px;
@@ -77,6 +60,7 @@ a:hover {
 			font-family: monospace;
 			font-size: x-large;
 			margin-top: 20px;
+			margin-bottom: 50px;
 			background-color:  #091520;
 			color: #ffc75f;
 			height: 50px;
@@ -94,6 +78,7 @@ a:hover {
 			cursor: pointer;
 	}
 }
+
 .error-text {
 	color: #ffffff;  
 	margin: 20px 0 20px 200px;
@@ -109,7 +94,6 @@ a:hover {
         text-align: center;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
     .navbar {
