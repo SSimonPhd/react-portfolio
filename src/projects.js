@@ -1,18 +1,18 @@
 // Array for Project.js
 const projects = [
     {
-        id: 1,
-        link: "https://shielded-badlands-94815.herokuapp.com/",
-        title: "Text Editor",
-        github: "https://github.com/SSimonPhd/text-editor",
-        image: require("./images/text-ed.png"),
+			id: 1,
+			link: "https://shielded-badlands-94815.herokuapp.com/",
+			title: "Text Editor",
+			github: "https://github.com/SSimonPhd/text-editor",
+			image: require("./images/text-ed.png"),
     },
     {
-        id: 2,
-        link: "https://ssimonphd.github.io/iservice/",
-        title: "iService",
-        github: "https://github.com/SSimonPhd/iService",
-        image: require("./images/iservice.png"),
+			id: 2,
+			link: "https://ssimonphd.github.io/iservice/",
+			title: "iService",
+			github: "https://github.com/SSimonPhd/iService",
+			image: require("./images/iservice.png"),
     },
 		{
 			id: 3,
@@ -29,18 +29,18 @@ const projects = [
 			image: require("./images/weather-api.png"),
 		},
     {
-        id: 5,
-        link: "https://ssimonphd.github.io/codequiz/",
-        title: "Code Quiz",
-        github: "https://github.com/SSimonPhd/codequiz",
-        image: require("./images/codequiz.png"),
+			id: 5,
+			link: "https://ssimonphd.github.io/codequiz/",
+			title: "Code Quiz",
+			github: "https://github.com/SSimonPhd/codequiz",
+			image: require("./images/codequiz.png"),
     },
     {
-        id: 6,
-        link: "https://ssimonphd.github.io/password-gen/",
-        title: "Password Gen",
-        github: "https://github.com/SSimonPhd/password-gen",
-        image: require("./images/password-gen.png"),
+			id: 6,
+			link: "https://ssimonphd.github.io/password-gen/",
+			title: "Password Generator",
+			github: "https://github.com/SSimonPhd/password-gen",
+			image: require("./images/password-gen.png"),
     },
 
 ];
