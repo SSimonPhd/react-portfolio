@@ -43,7 +43,7 @@ a {
             text-align: center;
             border-radius: 10px 10px 0 0;
             padding-top: 10px;
-            background-color: #e9e1a4;
+            background-color:  #f1dc7c;
 						box-shadow: grey 0px 0px 1px 1px;
 
             .project-text {
@@ -64,6 +64,10 @@ a {
                 font-size: 3rem;
                 margin: auto;
             }
+
+						.hide:hover {
+							color: #314458;
+						}
         }
 
         .image {
@@ -89,14 +93,14 @@ a {
     }
 	}
 
-	@media only screen and (min-width: 600px) {
+	@media only screen and (min-width: 640px) {
 		.project-card {
 				max-width: 40%;
 				margin: 10px;
 		}
 }
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 640px) {
 			.project-card {
 					padding: 20px;
 					max-width: 80%;

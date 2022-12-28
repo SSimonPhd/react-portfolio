@@ -36,22 +36,22 @@ color: #1db475;
 
 	.input-field {
 			font-size: large;
-			width: 80%;
+			width: 60%;
 			height: 40px;
 			padding-left: 15px;
 			color:  #091520;
-			background-color:  #e9e1a4;
+			background-color: #f1dc7c;
 			border-radius: var(--border-radius);
 	}
 
 	.message-field {
 			height: 150px;
-			width: 80%;
+			width: 60%;
 			font-size: large;
 			font-family: monospace;
 			padding-left: 15px;
 			color: #091520;
-			background-color: #e9e1a4;;
+			background-color: #f1dc7c;
 			border-radius: var(--border-radius);
 	}
 
@@ -86,14 +86,14 @@ color: #1db475;
     font-size: 1rem;
 	}
 
-	@media only screen and (max-width: 762px) {
+// 	@media only screen and (max-width: 762px) {
 
-    .brand {
-        padding: 20px;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-}
+//     .brand {
+//         padding: 20px;
+//         font-size: 1.5rem;
+//         text-align: center;
+//     }
+// }
 
 @media only screen and (max-width: 600px) {
     .navbar {
@@ -123,4 +123,8 @@ color: #1db475;
         font-size: 1.5rem;
         text-align: center;
     }
+
+		.input-field {
+			width: 100%;
+		}
 }
