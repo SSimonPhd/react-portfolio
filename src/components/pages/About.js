@@ -1,7 +1,6 @@
 import '../../styles/About.scss'
 import image from '../../images/profile.jpg'
 
-
 const About = () => {
   return (
     <div className='about-container'>
@@ -10,11 +9,11 @@ const About = () => {
       <p className='profile-text'> <br></br>
         Hi! I'm Scott.</p>
 				<p className='profile-text2'> <br></br>
-        Information Scientist/Web Developer with a hard focus on Blockchain, DeFi, and Web3.  
+        Multidisciplinary Full Stack Web Developer and Information Scientist with a talent for condensing large data into a simple to understand story and building websites from mockup to rollout.  
 				<br></br><br></br>  
-				Relevant experience in Information Architecture and Cloud Services. 
+				Adept at working independently as well as collaborating with teams across multiple functions to break down concepts in layman terms.
 				<br></br><br></br>  
-				Published researcher applying math and logic to solve real world problems.
+				Deliver experience obtained through a cross-functional organization to streamline the development process. Prepared to excel in solving complex problems. 
 				<br></br> <br></br>
         </p>
     </div>
