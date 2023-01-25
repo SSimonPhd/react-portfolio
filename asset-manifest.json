@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.03670b2d.css",
-    "main.js": "/react-portfolio/static/js/main.20f83d0f.js",
+    "main.js": "/react-portfolio/static/js/main.5e91853b.js",
+    "static/media/solo-traveler.png": "/react-portfolio/static/media/solo-traveler.c852a07f721572061aec.png",
+    "static/media/redux-store.png": "/react-portfolio/static/media/redux-store.26f453fb3be13c38abf4.png",
+    "static/media/book-search.png": "/react-portfolio/static/media/book-search.145f02391d5aede5e30f.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.b2441280a441bfc96c56.jpg",
     "static/media/iservice.png": "/react-portfolio/static/media/iservice.17e16c5387e8b812681b.png",
     "static/media/day-planner.png": "/react-portfolio/static/media/day-planner.a426536ad63f764392d9.png",
     "static/media/weather-api.png": "/react-portfolio/static/media/weather-api.6b31e3ae5d5589e357b5.png",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.7423e869c909fcb4cdce.png",
     "static/media/password-gen.png": "/react-portfolio/static/media/password-gen.eb38f7e9daa3d3f26834.png",
-    "static/media/text-ed.png": "/react-portfolio/static/media/text-ed.0821b68baa88ad6e07d4.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.7cd72e79c405cb2abddf.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.f66aa1111b710b608519.png",
     "index.html": "/react-portfolio/index.html",
     "main.03670b2d.css.map": "/react-portfolio/static/css/main.03670b2d.css.map",
-    "main.20f83d0f.js.map": "/react-portfolio/static/js/main.20f83d0f.js.map"
+    "main.5e91853b.js.map": "/react-portfolio/static/js/main.5e91853b.js.map"
   },
   "entrypoints": [
     "static/css/main.03670b2d.css",
-    "static/js/main.20f83d0f.js"
+    "static/js/main.5e91853b.js"
   ]
 }
